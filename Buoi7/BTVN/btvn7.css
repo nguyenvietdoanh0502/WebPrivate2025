@@ -1,0 +1,118 @@
+* {
+  /* Xóa margin, padding và border mặc định */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #daf1ff;
+}
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 480px;
+    margin: 180px auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 24px;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.card__input__name{
+    width: 100%;
+    padding: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc8c;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #585858;
+    background-color: #f3f3f37a;
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+.card__input__point{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 1px solid #cccccc8c;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #585858;
+    background-color: #f3f3f37a;
+    padding-left: 20px;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+h2{
+    text-align: start;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #a8a8a8;
+    font-size: 14px;
+    
+}
+button:hover {
+    background-color: #0066d3;
+    transform: translateY(-2px);
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+li{
+    width: 100%;
+    padding: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    padding-left: 30px;
+}
+li:hover{
+    background-color: #f3f3f3;
+}
